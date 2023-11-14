@@ -105,7 +105,7 @@ h6 {
 }
 
 body {
-  background: url("../img/bg.jpg") no-repeat center/cover;
+  background: url("../img/bg.jpg") repeat center/cover;
 }
 
 .lock body {
@@ -521,14 +521,14 @@ body::after {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 50px;
-          flex: 0 0 50px;
-  width: 50px;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px;
   z-index: 9;
 }
 
 .header__logo img {
   max-width: 100%;
+  border-radius: 20%;
 }
 
 .menu {
@@ -563,7 +563,7 @@ body::after {
 }
 
 .menu__item {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #fff;
 }
 
